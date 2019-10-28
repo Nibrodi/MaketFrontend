@@ -349,12 +349,12 @@ canvas:hover {
   opacity: 0.6;
 }
 
-footer {
+.social {
   height: 509px;
   background-color: $bgBlue;
 }
 
-footer h2 {
+.social h2 {
   color: $fontColor;
   font-family: $fontFamily;
   font-size: 30px;
@@ -448,4 +448,15 @@ form textarea {
 
 .socialLink img:hover {
   opacity: 0.6;
+}
+
+footer {
+  height: 20px;
+  background-color: $bgGrey;
+  text-align: center;
+  font-family: $fontFamily;
+  color: $FontBlue;
+  font-size: 12px;
+font-weight: 400;
+line-height: 24px;
 }
