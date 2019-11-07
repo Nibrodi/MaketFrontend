@@ -10,7 +10,10 @@
 <body>
     <div class="container">
         <header id="content">
-            <canvas id="one" width="469" height="214"></canvas>
+            <video class="bg_video" muted autoplay poster="img/phone_icon.png">
+                <source src="https://timflach.com/wp-content/uploads/2014/02/SELECT_01.mp4">
+            </video>
+            <video src="img/video2.mov" id="one" muted autoplay loop poster="/images/video.png"></video>
             <div class="header-text">
                 <h1>Product name</h1>
                 <ul class="header-list">
@@ -20,6 +23,10 @@
                     <li>Associate the page with the payment system</li>
                 </ul>
             </div>
+            <form action="" method="get" class="search1">
+                <input name="s" placeholder="Искать здесь..." type="search">
+                <button type="submit">Поиск</button>
+            </form>
         </header>
         <main>
             <div class="about-product">
@@ -175,6 +182,7 @@
                         <label>
                             <textarea rows="10" cols="50" name="contentText" placeholder="Your message:"></textarea>
                         </label>
+                        <label><input type="datetime-local" name="" value=""></label>
                         <input class="send" type="submit" value="Send">
                     </form>
                     <div class="contact-block">
